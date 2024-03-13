@@ -30,7 +30,7 @@ public class WordGenerator{
         word.add("enum");
         word.add("for");
         word.add("if");
-        word.add("import");
+        word.add("inport");
         word.add("int");
     }
     public String generateWord(){

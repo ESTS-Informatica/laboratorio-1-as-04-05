@@ -84,6 +84,13 @@ public class WordGuessingGame{
         }
         return guessedWord.toString();
     }  
+    
+    public void reset() {
+        hiddenWord = wg.generateWord();
+        guessedWord = initializeGuesseWord();
+        numberOfTries = 0;
+    }
+
 }
 
 
