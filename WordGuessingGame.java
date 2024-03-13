@@ -9,9 +9,12 @@ public class WordGuessingGame{
     private String guessedWord="___";
     private int numberOfTries=0;
     private InputReader reader;
+    private WordGenerator wg;
     
     public WordGuessingGame(){
         this.reader= new InputReader();
+        hiddenWord=wg.generateWord();
+          
     }
 
     public String getHiddenWord() {
@@ -69,9 +72,13 @@ public class WordGuessingGame{
     numberOfTries++;
     }
     
-    
     private void showResults(){
         System.out.println("Numero de vezes: " + numberOfTries);
+    }
+    
+    public void initializeGuesseWord(){
+        String newS="_";
+        newS="_" + hiddenWord.length();     
     }
 }
 
