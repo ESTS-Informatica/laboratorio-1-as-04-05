@@ -51,7 +51,6 @@ public class WordGuessingGame{
         showResults();
     }
 
-
     private void showWelcome(){
         System.out.println(" BEM VINDO \n");
     }
