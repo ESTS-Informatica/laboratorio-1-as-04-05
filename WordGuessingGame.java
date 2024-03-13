@@ -38,6 +38,6 @@ public class WordGuessingGame{
     }
 
     public void showGuessedWord(){
-        System.out.println( "Palavra escondida : "+ guessedWord) ;
+        System.out.println( "Palavra escondida : "+ hiddenWord  ) ;
     }
 }
