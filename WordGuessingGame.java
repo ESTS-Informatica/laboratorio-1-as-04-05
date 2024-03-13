@@ -37,7 +37,7 @@ public class WordGuessingGame{
         this.numberOfTries = numberOfTries;
     }
 
-    public String showGuessedWord(){
-        return "Palavra escondida : "+guessedWord;
+    public void showGuessedWord(){
+        System.out.println( "Palavra escondida : "+ guessedWord) ;
     }
 }
